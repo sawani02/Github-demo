@@ -21,19 +21,11 @@ echo 'Hello Sawani Soman' > test.txt
 
 git add test.txt
 
-Sawanis-MacBook-Pro:Github-demo sawani$ git commit -m "added test.txt"
-[master a30e838] added test.txt
- 1 file changed, 1 insertion(+)
- create mode 100644 test.txt
-Sawanis-MacBook-Pro:Github-demo sawani$ git push
-Enumerating objects: 4, done.
-Counting objects: 100% (4/4), done.
-Delta compression using up to 4 threads
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (3/3), 301 bytes | 301.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/sawani02/Github-demo.git
-   b95cf37..a30e838  master -> master
+$ git commit -m "added test.txt"
+
+$ git push
+
+
    
   Refresh github repo and you should be able to see the changes with test.txt file.
   
@@ -44,7 +36,7 @@ To https://github.com/sawani02/Github-demo.git
   this will go to that branch
   git branch
   you can see on which branch you are currently working, branch highlighted in green is the one on which you are working.
-  Sawanis-MacBook-Pro:Github-demo sawani$ git branch
+  $ git branch
   master
 * navbar
 
